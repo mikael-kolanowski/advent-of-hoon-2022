@@ -19,7 +19,6 @@
  =|  sums=(list @ud)
  =|  current-sum=@ud
  |-
- ::
  ?~  parsed  sums
  =/  current  -:parsed
  ?~  current 
