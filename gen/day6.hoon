@@ -15,7 +15,6 @@
   =/  string  (trip -:puzzle-input)
   =|  index=@ud
   |-
-  ?:  (gth index (sub (lent string) window-size))  0
   =/  window  (silt (swag [index window-size] string))
   ?:  =(window-size ~(wyt in window))
     (add index window-size)
